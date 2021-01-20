@@ -1,12 +1,11 @@
  Welcome to My Page
 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It's not how I want it yet. Be Patient 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
+# Here we go...
+.. Text still has to be written..
 ## Header 2
 ### Header 3
 
