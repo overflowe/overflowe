@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Final Project</title>
+</head>
+<body>
+    <h1>Melisa Pekgöz</h1>
+        <nav>
+            <a href="https://learn.shayhowe.com/html-css/">One</a>
+            <a href="https://learn.shayhowe.com/html-css/">Two</a>
+            <a href="https://learn.shayhowe.com/html-css/">Three</a>
+            <a href="https://learn.shayhowe.com/html-css/">Zero</a>
+        </nav>
+        <section>
+        <h2>Favorite Foods</h2>
+        <ul>
+            <li>Banana</li>
+            <li>Kebab</li>
+            <li>Chocolate</li>
+            <li>Stawberry</li>
+        </ul>
+        </section>  
 
-You can use the [editor on GitHub](https://github.com/overflowe/overflowe/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+        <section>
+        <h2>Achievements</h2>
+        <label for="ThisCourse">Progress in this course(100%)</label>
+        <progress id="ThisCourse" value ="100" max = "100"></progress><br>
+        <label for="capstone">Progress in the Specialization capstone (20%)</label>
+        <progress id ="capstone" value ="20" max = "100"></progress><br>
+        <label for="University">Progress in University (69%)</label>
+        <progress id ="University" value ="69" max = "100"></progress><br>
+        </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <section>
+        <h2>More About Me</h2>
+        <details>
+            <summary>My Childhood</summary>
+            <p>I grew up in a big City. But my Heart always wanted Mountains and Nature.</p>
+          </details>
+        </section>
 
-### Markdown
+        <footer>
+            <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="Logo of intro-webdesign">
+            <p>This page was created by Melisa Pekgöz <span>&#38;</span> Colleen van Lent. To learn more about web design, visit
+                <a href="http://www.intro-webdesign.com"> Intro to Web Design</a>
+            </p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/overflowe/overflowe/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        </footer>
+    
+</body>
+</html>
